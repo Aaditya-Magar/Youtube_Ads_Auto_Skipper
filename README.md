@@ -1,11 +1,11 @@
 # Auto Skip for Android
 
-A small, private Android utility that removes one repetitive tap from YouTube:
-when the official YouTube app exposes an enabled Skip button, Auto Skip finds it
+A Android utility that removes one repetitive tap from YouTube:
+when the YouTube app exposes an enabled Skip button, Auto Skip finds it
 through Android Accessibility and presses it for you. It runs on-device, watches
 only YouTube, stores no screen content, and gives you one centered power control
 to pause or resume the service. It is designed for **Android 8.0+ (API 26)**
-phones, tablets and foldables; Android TV is outside the current scope.
+phones, tablets and foldables.
 
 <img src="docs/screenshots/onboarding.png" alt="Auto Skip accessibility permission bottom sheet" width="260"> <img src="docs/screenshots/ready.png" alt="Auto Skip premium power control" width="260"> <img src="docs/screenshots/permission-sheet.png" alt="Auto Skip permission sheet" width="260">
 
@@ -60,7 +60,7 @@ off its scanning, install the APK, then turn scanning back on immediately:
 1. Open **Google Play Store**.
 2. Tap your profile picture.
 3. Tap **Play Protect**.
-4. Tap the gear icon.
+4. Tap the gear icon(settings).
 5. Turn off **Scan apps with Play Protect**.
 6. If shown, also turn off **Improve harmful app detection** temporarily.
 7. Install `YT-Ads-Auto-Skipper.apk`.
