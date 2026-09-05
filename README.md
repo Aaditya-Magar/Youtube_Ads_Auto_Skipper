@@ -1,10 +1,13 @@
 # Auto Skip for Android
 
-A small Android app that automatically taps recognized, available **Skip** buttons
-in the official YouTube app. Designed for **Android 8.0+ (API 26)** phones,
-tablets and foldables. Android TV is outside the current scope.
+A small, private Android utility that removes one repetitive tap from YouTube:
+when the official YouTube app exposes an enabled Skip button, Auto Skip finds it
+through Android Accessibility and presses it for you. It runs on-device, watches
+only YouTube, stores no screen content, and gives you one centered power control
+to pause or resume the service. It is designed for **Android 8.0+ (API 26)**
+phones, tablets and foldables; Android TV is outside the current scope.
 
-<img src="docs/screenshots/onboarding.png" alt="First-launch accessibility setup" width="260"> <img src="docs/screenshots/ready.png" alt="Auto Skip ready screen with on/off control" width="260">
+<img src="docs/screenshots/onboarding.png" alt="Auto Skip accessibility permission bottom sheet" width="260"> <img src="docs/screenshots/ready.png" alt="Auto Skip premium power control" width="260"> <img src="docs/screenshots/permission-sheet.png" alt="Auto Skip permission sheet" width="260">
 
 ## What it does
 
