@@ -1,6 +1,6 @@
 # Auto Skip for Android
 
-![Android CI](https://github.com/Aaditya-Magar/YT_Ads_Auto_Skipper/actions/workflows/android.yml/badge.svg)
+![Android CI](https://github.com/Aaditya-Magar/Youtube_Ads_Auto_Skipper/actions/workflows/android.yml/badge.svg)
 
 A small Android app that automatically taps recognized, available **Skip** buttons
 in the official YouTube app. Designed for **Android 8.0+ (API 26)** phones,
@@ -44,16 +44,36 @@ There are no third-party runtime dependencies.
 
 1. Install the debug APK on your emulator or phone. For a downloaded APK, Android
    may ask you to allow installation from the app opening the file.
-2. Open **Auto Skip** and read the accessibility disclosure.
-3. Tap **Open Accessibility Settings**, find **Auto Skip**, and enable its service.
-4. Return to the app. It should show **Ready to skip** with Auto-skip switched on.
-5. Open the official YouTube app and play a video. The app waits for a recognized
-   clickable Skip button. Toggle Auto-skip off to pause.
+2. Open **Auto Skip**. The accessibility explanation appears in a bottom sheet.
+3. Tap **Enable access**, find **Auto Skip** in Accessibility Settings, and enable
+   the service.
+4. Return to the app. The center power button should show **Ready to skip**.
+5. Tap the center power button to enable or pause auto-skip, then open the official
+   YouTube app and play a video.
 
-If access is blocked for a downloaded APK, use **Setup help**. Android may require
-**App info → menu → Allow restricted settings** before enabling accessibility.
-Only enable access for a build you trust. Instructions vary by manufacturer.
-You can revoke access at any time in Android's Accessibility Settings.
+### If Play Protect blocks the APK
+
+Play Protect does not provide a per-app disable switch. You can temporarily turn
+off its scanning, install the APK, then turn scanning back on immediately:
+
+1. Open **Google Play Store**.
+2. Tap your profile picture.
+3. Tap **Play Protect**.
+4. Tap the gear icon.
+5. Turn off **Scan apps with Play Protect**.
+6. If shown, also turn off **Improve harmful app detection** temporarily.
+7. Install `YT-Ads-Auto-Skipper.apk`.
+8. Immediately return to the same menu and turn both settings back on.
+9. Run a Play Protect scan afterward.
+
+Google documents this control under **Play Store → Profile → Play Protect →
+Settings** in [Google support](https://support.google.com/accounts/answer/9924802).
+
+After installation, Android may still require **Settings → Apps → Auto Skip →
+⋮ → Allow restricted settings**. Then enable the Accessibility Service. Only do
+this with an APK you built and trust; Accessibility access can read screen content
+and interact with other apps. You can revoke access at any time in Android's
+Accessibility Settings.
 
 Debug APKs are for development/testing. Before publishing downloadable release
 APKs, create and retain your own release signing key using Android Studio's
