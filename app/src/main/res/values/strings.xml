@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Auto Skip</string>
+    <string name="tagline">A little less tapping.</string>
+    <string name="intro">Automatically tap Skip when it becomes available in the official YouTube app.</string>
+    <string name="setup_title">One permission. You’re in control.</string>
+    <string name="disclosure">Auto Skip needs accessibility access to read YouTube’s on-screen controls and tap its Skip button for you. Processing stays on your device. The app does not save or transmit screen content.</string>
+    <string name="setup_steps">1. Open Accessibility Settings below.\n2. Find Auto Skip under installed or downloaded apps.\n3. Enable the service, then return here.</string>
+    <string name="open_settings">Open Accessibility Settings</string>
+    <string name="not_now">Not now</string>
+    <string name="auto_skip">Auto-skip</string>
+    <string name="ready">Ready to skip</string>
+    <string name="paused">Paused</string>
+    <string name="setup_needed">Setup needed</string>
+    <string name="ready_detail">Auto-skip is on. Tap to pause.</string>
+    <string name="paused_detail">Auto Skip will not tap anything. Tap the power button to turn it on.</string>
+    <string name="setup_detail">Tap the power button to enable access.</string>
+    <string name="limits">Ads without a Skip button will play normally. YouTube updates can change button detection.</string>
+    <string name="help">Setup help</string>
+    <string name="help_body">Accessibility access\nOpen Accessibility Settings, select Auto Skip and enable it. Android may place it under Downloaded apps or Installed apps.\n\nRestricted settings\nFor a downloaded APK, Android may block this setting. If you trust this build, open App info → the menu → Allow restricted settings, if available, then try accessibility setup again. The exact steps vary by phone.\n\nStill not skipping?\nCheck that Auto-skip is on, accessibility access is enabled, and you’re using the official YouTube phone/tablet app. Some phones may stop accessibility services; check your manufacturer’s background-app settings if access stops working.\n\nOnly recognized, available Skip buttons are clicked. If YouTube changes its interface, an app update may be needed. Android TV is not supported in this version.</string>
+    <string name="app_info">Open App info</string>
+    <string name="close">Close</string>
+    <string name="settings_missing">Settings could not be opened. Open your phone’s Settings app and find Accessibility → Auto Skip.</string>
+    <string name="privacy_footer">On-device processing · No account needed</string>
+    <string name="service_description">Automatically presses recognized, available Skip buttons in the official YouTube app. Requires reading YouTube’s interface and performing clicks. No screen content is stored or sent. You can pause in Auto Skip or disable this service here.</string>
+    <string name="control_eyebrow">YOUR WATCH TIME, UNINTERRUPTED</string>
+    <string name="permission_eyebrow">LET’S GET YOU SET UP</string>
+    <string name="sheet_steps">On the next screen, select Auto Skip and enable the service. Then return here.</string>
+    <string name="enable_access">Enable access</string>
+    <string name="turn_on">Turn on auto-skip</string>
+    <string name="turn_off">Turn off auto-skip</string>
+</resources>
