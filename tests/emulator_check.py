@@ -13,7 +13,7 @@ SERIAL = sys.argv[1] if len(sys.argv) > 1 else "emulator-5554"
 if not re.fullmatch(r"emulator-\d+", SERIAL):
     raise SystemExit("Use a disposable emulator; this check clears Auto Skip's app data.")
 ADB = str(Path(os.environ["ANDROID_HOME"]) / "platform-tools/adb") if "ANDROID_HOME" in os.environ else "adb"
-PACKAGE = "io.github.adityamagar.autoskip"
+PACKAGE = "com.ytadsskipper.app"
 SERVICE = PACKAGE + "/.SkipService"
 OUT = ROOT / "app/build/smoke"
 OUT.mkdir(parents=True, exist_ok=True)

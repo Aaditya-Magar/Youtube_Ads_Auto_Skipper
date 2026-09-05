@@ -1,4 +1,4 @@
-package io.github.adityamagar.autoskip;
+package com.ytadsskipper.app;
 
 import android.accessibilityservice.AccessibilityService;
 import android.content.SharedPreferences;

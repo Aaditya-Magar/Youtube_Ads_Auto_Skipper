@@ -9,4 +9,4 @@
     android:isAccessibilityTool="false"
     android:notificationTimeout="100"
     android:packageNames="com.google.android.youtube"
-    android:settingsActivity="io.github.adityamagar.autoskip.MainActivity" />
+    android:settingsActivity="com.ytadsskipper.app.MainActivity" />

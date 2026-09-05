@@ -1,4 +1,4 @@
-package io.github.adityamagar.autoskip;
+package com.ytadsskipper.app;
 
 public final class SkipRuleCheck {
     public static void main(String[] args) {

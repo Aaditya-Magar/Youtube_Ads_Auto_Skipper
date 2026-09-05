@@ -1,4 +1,4 @@
-package io.github.adityamagar.autoskip;
+package com.ytadsskipper.app;
 
 final class SkipRule {
     static final String YOUTUBE = "com.google.android.youtube";

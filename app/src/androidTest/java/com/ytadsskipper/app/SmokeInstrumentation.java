@@ -1,4 +1,4 @@
-package io.github.adityamagar.autoskip;
+package com.ytadsskipper.app;
 
 import android.app.Activity;
 import android.app.Instrumentation;
