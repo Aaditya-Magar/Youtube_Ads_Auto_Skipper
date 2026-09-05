@@ -1,7 +1,5 @@
 # Auto Skip for Android
 
-![Android CI](https://github.com/Aaditya-Magar/Youtube_Ads_Auto_Skipper/actions/workflows/android.yml/badge.svg)
-
 A small Android app that automatically taps recognized, available **Skip** buttons
 in the official YouTube app. Designed for **Android 8.0+ (API 26)** phones,
 tablets and foldables. Android TV is outside the current scope.
