@@ -1,4 +1,4 @@
-# Auto Skip for Android
+# Youtube Ads Auto Skipper
 
 A Android utility that removes one repetitive tap from YouTube:
 when the YouTube app exposes an enabled Skip button, Auto Skip finds it
