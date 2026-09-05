@@ -1,0 +1,23 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/sheet_background"
+    android:fillViewport="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="28dp">
+        <View android:layout_width="36dp" android:layout_height="4dp" android:layout_gravity="center_horizontal"
+            android:background="#687081" android:importantForAccessibility="no" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="26dp"
+            android:text="@string/permission_eyebrow" android:textSize="11sp" android:letterSpacing="0.16" android:textColor="#DDC38A" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"
+            android:text="@string/setup_title" android:textSize="26sp" android:textStyle="bold" android:textColor="#F4F0E7" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:text="@string/disclosure" android:textSize="15sp" android:lineSpacingExtra="3dp" android:textColor="#BEC5D1" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"
+            android:text="@string/sheet_steps" android:textSize="14sp" android:textColor="#BEC5D1" />
+        <Button android:id="@+id/open_settings" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:layout_marginTop="24dp" android:background="@drawable/primary_button"
+            android:text="@string/enable_access" android:textAllCaps="false" android:textColor="#111722" android:textStyle="bold" />
+        <Button android:id="@+id/not_now" style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp"
+            android:layout_marginTop="8dp" android:text="@string/not_now" android:textAllCaps="false" android:textColor="#BEC5D1" />
+    </LinearLayout>
+</ScrollView>
